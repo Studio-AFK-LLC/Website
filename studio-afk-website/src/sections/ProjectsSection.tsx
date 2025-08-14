@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import quickEscapeIcon from '../assets/quick-escape-artist-black-background.png';
 
 // Project data from ReadMe
 const projects = [
@@ -78,6 +79,15 @@ const projects = [
       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <path fillRule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clipRule="evenodd"></path>
       </svg>
+    ),
+  },
+  {
+    name: "Quick Escape Artist",
+    description: "Fun novelty app that produces fake calls and texts to help you escape awkward situations.",
+    category: "Fun",
+    color: "bg-amber-400",
+    icon: (
+      <img src={quickEscapeIcon} alt="Quick Escape Artist icon" className="w-8 h-8 object-contain" />
     ),
   },
   {
