@@ -1,0 +1,5 @@
+/apps/:id/privacy    /privacy/:id    301
+/privacy/:id.html      /privacy/:id    301
+/privacy/:id.md        /privacy/:id    301
+/old/privacy/:id       /privacy/:id    301
+/*                     /index.html     200

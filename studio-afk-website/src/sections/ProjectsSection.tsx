@@ -59,6 +59,11 @@ const ProjectsSection = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2 group-hover:text-accent transition-colors">{project.name}</h3>
                 <p className="text-text-secondary">{project.description}</p>
+                {project.privacyFile && (
+                  <div className="mt-3">
+                    <Link to={`/privacy/${project.id}`} aria-label={`${project.name} privacy`} className="text-sm text-accent hover:underline">Privacy</Link>
+                  </div>
+                )}
               </div>
             );
 

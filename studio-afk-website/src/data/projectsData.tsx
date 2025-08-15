@@ -95,6 +95,9 @@ const projects = [
     icon: (
       <img src={quickEscapeIcon} alt="Quick Escape Artist icon" className="w-8 h-8 object-contain" />
     ),
+    // If you upload a per-app privacy file to src/assets (e.g. quick-escape-privacy.html or .md), set privacyFile to that filename
+  // points to the uploaded markdown privacy file in the repo root `privacy-policies/`
+  privacyFile: 'quick-escape-artist-privacy-policy.md',
   },
   {
     id: 'projecthub',
